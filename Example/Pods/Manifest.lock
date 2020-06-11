@@ -1,0 +1,16 @@
+PODS:
+  - SwiftFramework (0.1.0)
+
+DEPENDENCIES:
+  - SwiftFramework (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftFramework: 7929532c7a5bbaaf157c9594826100c6fd40dba7
+
+PODFILE CHECKSUM: 98e5830a6003bd0caaca173df8174454fa01fa4f
+
+COCOAPODS: 1.9.1

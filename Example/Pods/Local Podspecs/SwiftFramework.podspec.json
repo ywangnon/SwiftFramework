@@ -1,0 +1,22 @@
+{
+  "name": "SwiftFramework",
+  "version": "0.1.0",
+  "summary": "A short description of SwiftFramework.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ywangnon123@gmail.com/SwiftFramework",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ywangnon123@gmail.com": "ywangnon123@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ywangnon123@gmail.com/SwiftFramework.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SwiftFramework/Classes/**/*"
+}
