@@ -1,9 +1,10 @@
 {
   "name": "SwiftFramework",
   "version": "0.1.0",
+  "swift_versions": "5.0",
   "summary": "A short description of SwiftFramework.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ywangnon123@gmail.com/SwiftFramework",
+  "description": "This is SwiftFramework",
+  "homepage": "https://github.com/ywangnon/SwiftFramework",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -18,5 +19,6 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "SwiftFramework/Classes/**/*"
+  "source_files": "SwiftFramework/Classes/**/*",
+  "swift_version": "5.0"
 }
