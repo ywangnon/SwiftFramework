@@ -22,7 +22,7 @@ pod 'SwiftFramework'
 
 ## Author
 
-ywangnon123@gmail.com, ywangnon123@gmail.com
+[ywangnon](ywangnon123@gmail.com)
 
 ## License
 

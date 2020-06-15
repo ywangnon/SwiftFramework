@@ -1,16 +1,33 @@
 PODS:
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
   - SwiftFramework (0.1.0)
 
 DEPENDENCIES:
+  - RxCocoa
+  - RxSwift
   - SwiftFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - RxCocoa
+    - RxRelay
+    - RxSwift
 
 EXTERNAL SOURCES:
   SwiftFramework:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SwiftFramework: 7929532c7a5bbaaf157c9594826100c6fd40dba7
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  SwiftFramework: 1f12fd93e904ad6ffb143fc45026294d33e4f13c
 
-PODFILE CHECKSUM: 98e5830a6003bd0caaca173df8174454fa01fa4f
+PODFILE CHECKSUM: aa8b6e069673f491c8d38a91f3249a63302f4c9c
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.8.4
