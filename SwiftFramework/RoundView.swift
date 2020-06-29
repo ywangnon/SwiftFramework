@@ -42,10 +42,12 @@ public class RoundView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        self.setLayout()
     }
     
     required init?(coder: NSCoder) {
         super.init(coder: coder)
+        self.setLayout()
     }
     
     public override class func prepareForInterfaceBuilder() {
