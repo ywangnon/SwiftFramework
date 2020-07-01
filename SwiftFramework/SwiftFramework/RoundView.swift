@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-public class RoundView: UIView {
+class RoundView: UIView {
     @IBInspectable
     var cornerRadius: CGFloat {
         get {
@@ -48,8 +48,8 @@ public class RoundView: UIView {
         super.init(coder: coder)
     }
     
-    public override class func prepareForInterfaceBuilder() {
-        super.prepareForInterfaceBuilder()
+    override class func prepareForInterfaceBuilder() {
+        
     }
     
     func setLayout() {
