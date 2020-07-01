@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftFramework_Tests' do
+  pod 'SwiftFramework', :path => '../'
+  pod 'RxSwift'
+  pod 'RxCocoa'
+end
