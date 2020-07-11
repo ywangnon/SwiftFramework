@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0198005D24B745F000AA1658 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0140E0822497A50D00D7D731 /* Round.swift */; };
+		0198005F24B7471200AA1658 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0198005E24B7471200AA1658 /* Round.swift */; };
 		1331F8E489F61BE7B7541A96E2AE8F35 /* SwiftFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C62EF7B82B3AAA2C0FC547BE62589128 /* SwiftFramework-dummy.m */; };
 		1AB355FE85157882F085D348384DB972 /* SwiftFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C2BD1E904BF35D29A17602FD7BB9174 /* SwiftFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31A169A617897F4AE7C5F5CDC43D7753 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		00594FB9C20AFFFA8D3960CC28AC60BE /* SwiftFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftFramework-Info.plist"; sourceTree = "<group>"; };
-		0140E0822497A50D00D7D731 /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		0198005E24B7471200AA1658 /* Round.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Round.swift; path = SwiftFramework/Classes/Round.swift; sourceTree = "<group>"; };
 		043EF605D5C80E1DC5EEFF11C6B9DC2F /* SwiftFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C1EFBA223027F8C8388D79C3FDB6BA9 /* Pods-SwiftFramework_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwiftFramework_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0C35912BABE7AF7ECFF5A6961E31B3B2 /* SwiftFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftFramework.debug.xcconfig; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				206D6DEDBAB345E37A29AD6B06A4F7B4 /* ReplaceMe.swift */,
-				0140E0822497A50D00D7D731 /* Round.swift */,
+				0198005E24B7471200AA1658 /* Round.swift */,
 				9AEB1E0D512B613C23DE154E8D3A6AEF /* Pod */,
 				157528EF9B0C69E25F6837763BC025DA /* Support Files */,
 			);
@@ -295,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0198005F24B7471200AA1658 /* Round.swift in Sources */,
 				EBCDB8C32B19D1C88E82C636EF7DFB35 /* Pods-SwiftFramework_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +305,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				60920799343C36CBF7245AB30CA69ADD /* ReplaceMe.swift in Sources */,
-				0198005D24B745F000AA1658 /* Round.swift in Sources */,
 				1331F8E489F61BE7B7541A96E2AE8F35 /* SwiftFramework-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
